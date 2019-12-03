@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import com.bdi.test.model.UserInfo;
 
 @Service
-public interface UserInfoService extends JpaRepository<UserInfo,Long>{
+public interface UserInfoService extends JpaRepository<UserInfo, Integer>{
 
+	
 }
